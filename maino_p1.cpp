@@ -224,6 +224,7 @@ int main(int argc, char** argv) {
 	}
 
 	runMachine(inputString, states, transitions, maxTrans);
-
+	delete[] argv[2];
+	delete[] argv[3];
 	exit(0);
 }
